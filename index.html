@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Booster</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <div class="icon">
+                <img src="logo.png" alt="Icon">
+            </div>
+            <div class="home">home</div>
+            <div class="toService nav" onclick="jumpTo(Service)">service</div>
+            <div class="toAboutUs nav" onclick="jumpTo(AboutUs)">about us</div>
+            <div class="toPricing nav" onclick="jumpTo(Pricing)">pricing table</div>
+            <div class="toHowItWorks nav" onclick="jumpTo(HowItWorks)">how it works</div>
+            <div class="toClients nav" onclick="jumpTo(Clients)">happy clients</div>
+            <div class="toNewsletter nav" onclick="jumpTo(Newsletter)">contuct us</div>
+        </nav>
+    </header>
+    <div class="content">
+        <section class="Home blue">
+            <h1>boost up your local business </h1>
+            <p>Midst. Greater Was, very unto. Grass open female firmament fifth isn't. So. Deep bring unto</p>
+            <form action="">
+                <input type="text" placeholder="✎Full Name">
+                <input type="text" placeholder="&#9993E-mail Adress">
+                <input type="text" placeholder="&#9742Phone Number">
+                <input type="submit" value="Request A Quote">
+            </form>
+            <div class="carousel">
+                <div class="buttonLeft" onclick="carouselMinus()">&lt</div>
+                <img src="img1.jpg" alt="image" class="image" id="CarIm">
+                <div class="buttonRight" onclick="carouselPlus()">&gt</div>
+            </div>
+            <div class="dots">
+                <ul>
+                    <li onclick="clickChange(1)"></li>
+                    <li onclick="clickChange(2)"></li>
+                    <li onclick="clickChange(3)"></li>
+                </ul>
+            </div>
+        </section>
+        <section id="Service">
+            <h2>our services</h2>
+            <p>Every winged fill void form day he signs living, fish seasons, one good male that years, together.</p>
+            <div class="grid">
+                <div class="service1">
+                    <h3>font-awesome icons</h3>
+                    <p>Dry forth saw stars. Be bearing divided wherein abundantly. There waters. Heaven shall good it
+                        whose deep let to years together, replenish she'd you're air make form waters second years.</p>
+                </div>
+                <div class="service2">
+                    <h3>fully responsive design</h3>
+                    <p>Created bring every abundantly together days which a under seed whose fowl waters tree form hath
+                        fill. Light, over face thing. Dry land. Cattle female winged sea you great which.</p>
+                </div>
+                <div class="service3">
+                    <h3>working contact form</h3>
+                    <p>Our you're doesn't Without kind was heaven us, multiply, in all female years male. Above creeping
+                        you're you'll fruitful given fill open in from. Divide greater god, signs god together.</p>
+                </div>
+                <div class="service4">
+                    <h3>retina ready icons here</h3>
+                    <p>Us won't was which dominion itself subdue the. A saying night after dry god fruitful over hath
+                        green, sea i after lesser whales brought i. Female under he brought can't.</p>
+                </div>
+                <div class="service5">
+                    <h3>friendly code</h3>
+                    <p>First sixth. Meat let one. They're creepeth form lesser he firmament can't above have gathered.
+                        Sixth shall blessed stars you're form without winged you're fourth divide form beast. Living
+                        green.</p>
+                </div>
+                <div class="service6">
+                    <h3>flat trandy landing page design</h3>
+                    <p>I won't green life. That gathering whose fly hath void His a you're their winged can't moved
+                        moved fruit. She'd. Midst greater our blessed, sea own you'll under deep man.</p>
+                </div>
+            </div>
+        </section>
+        <section id="AboutUs">
+            <img src="about-image.jpg" alt="Image">
+            <div class="info">
+                <h3>about us</h3>
+                <p>Third winged tree that creature was fill without midst every face good midst seasons. To created
+                    light void forth fill, his fill winged sea midst you'll. Night is deep. Itself.</p>
+                <div id="readMore" onclick="lol()">READ MORE</div>
+            </div>
+        </section>
+        <section id="Pricing">
+            <h3>Choose your price</h3>
+            <p>Lights made rule she'd. Us tree. Spirit replenish you without.</p>
+            <div class="plans">
+                <div class="basic"></div>
+                <div class="premium"></div>
+                <div class="golden"></div>
+            </div>
+        </section>
+        <section id="HowItWorks">
+            <h3>How it works</h3>
+            <p>Gathered they're land morning. Said multiply moving. Set great evening.</p>
+            <div class="imageStep1"></div>
+            <div class="imageStep2"></div>
+            <div class="imageStep3"></div>
+            <div class="imageStep4"></div>
+            <div class="imageStep5"></div>
+            <div class="imageStep6"></div>
+            <div class="imageStep7"></div>
+            <div class="step1">
+                <h4>Step 1</h4>
+                <p>Wherein night wherein be. Days he, two evening. Firmament greater.</p>
+            </div>
+            <div class="step2">
+                <h4>Step 2</h4>
+                <p>Light life grass above Blessed to hath greater unto midst.</p>
+            </div>
+            <div class="step3">
+                <h4>Step 3</h4>
+                <p>Have hath beginning, lights. Gathering them great set seas for.</p>
+            </div>
+            <div class="step4">
+                <h4>Step 4</h4>
+                <p>Fill day third to years god good second give, lights.</p>
+            </div>
+            <div>
+                <h3>get start now</h3>
+            </div>
+        </section>
+        <section id="Clients">
+            <h3>happy clients</h3>
+            <p>Place god land fly likeness called which evening let years.</p>
+            <dl class="client1">
+                <dt><img src="Faces\Face1.png" alt="Client"></dt>
+                <dl>
+                    <quote></quote>
+                </dl>
+                <dt class="client2"></dt>
+                <img src="Faces\Face2.png" alt="Client">
+                <dl>
+                    <quote></quote>
+                </dl>
+                <dt class="client3"></dt>
+                <img src="Faces\Face3.png" alt="Client">
+                <dl>
+                    <quote></quote>
+                </dl>
+                <dt class="client4"></dt>
+                <img src="Faces\Face4.png" alt="Client">
+                <dl>
+                    <quote></quote>
+                </dl>
+        </section>
+        <section id="Newsletter">
+            <h3>newsletter</h3>
+            <p>Created made make created night May his wherein creature which.</p>
+            <form action="">
+                <input type="text" placeholder="✎Full Name">
+                <input type="text" placeholder="&#9993 E-mail Adress">
+                <input type="submit" value="subscribe now">
+            </form>
+            <div><img src="dotted map.png" alt="Map" class="map"></div>
+            <div class="menu">
+            </div>
+            <div class="home"></div>
+            <div class="toService" onclick="jumpTo()"></div>
+            <div class="toAboutUs" onclick="jumpTo()"></div>
+            <div class="toPricing" onclick="jumpTo()"></div>
+            <div class="toHowItWorks" onclick="jumpTo()"></div>
+            <div class="toClients" onclick="jumpTo()"></div>
+            <div class="toNewsletter" onclick="jumpTo()"></div>
+        </section>
+    </div>
+    <footer class="blue">
+        <p>All contents © copyright 2014 Business Theme. All rights reserved Designed by : akhilwebfolio</p>
+    </footer>
+</body>
+
+</html>

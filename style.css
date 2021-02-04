@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+.content>section {
+    padding: 10vh 15vw 0 15vw;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+section {
+    padding-top: 10vh;
+}
+
+.carousel {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonLeft, 
+.buttonRight {
+    background-color: transparent;
+    height: 5vh;
+    width: 5vw;
+    font-size: 5vh;
+    justify-self: center;
+    text-align: center;
+    cursor:pointer;
+    transition: color 1s, font-size 1s;
+}
+
+#CarIm {
+    width: 445px;
+    height: 246px;
+}
+
+li {
+    margin: 0vh 2vw 0vh 2vw;
+    border: 1vh solid gray;
+    font-size: 1vh;
+    border-radius: 10px;
+    display: inline;
+    position: relative;
+    background-color: gray;
+    transition: border-color 1s, background-color 1s, border-width 1s;
+}
+
+ul {
+    text-align: center;
+    padding: 0;
+}
+
+li:hover {
+    border-width: 1.5vh; 
+    border-color: white;
+    background-color: white;
+}
+
+.dots {
+    position: relative;
+    align-items: center;
+
+}
+
+.nav {
+    background-color: red;
+}
+
+nav>div {
+    padding: 0 10px 0 10px;
+}
+
+nav {
+    padding: 0 15vw 0 15vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.icon {
+    margin-right: auto;
+}
+
+.blue {
+    background-color: #709dca;
+}
+
+.map {
+    object-fit: scale-down;
+}
