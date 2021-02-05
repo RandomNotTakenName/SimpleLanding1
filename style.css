@@ -42,6 +42,12 @@ section {
     object-fit: cover;
 }
 
+.about-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 li {
     margin: 0vh 2vw 0vh 2vw;
     border: 1vh solid gray;
