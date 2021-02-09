@@ -15,29 +15,29 @@
             <div class="icon">
                 <img src="logo.png" alt="Icon">
             </div>
-            <div class="home">home</div>
-            <div class="toService nav" onclick="jumpTo(Service)">service</div>
-            <div class="toAboutUs nav" onclick="jumpTo(AboutUs)">about us</div>
-            <div class="toPricing nav" onclick="jumpTo(Pricing)">pricing table</div>
-            <div class="toHowItWorks nav" onclick="jumpTo(HowItWorks)">how it works</div>
-            <div class="toClients nav" onclick="jumpTo(Clients)">happy clients</div>
-            <div class="toNewsletter nav" onclick="jumpTo(Newsletter)">contuct us</div>
+            <span class="home nav orange">home</span>
+            <span class="toService nav" onclick="jumpTo(Service)">service</span>
+            <span class="toAboutUs nav" onclick="jumpTo(AboutUs)">about us</span>
+            <span class="toPricing nav" onclick="jumpTo(Pricing)">pricing table</span>
+            <span class="toHowItWorks nav" onclick="jumpTo(HowItWorks)">how it works</span>
+            <span class="toClients nav" onclick="jumpTo(Clients)">happy clients</span>
+            <span class="toNewsletter nav" onclick="jumpTo(Newsletter)">contuct us</span>
         </nav>
     </header>
     <div class="content">
         <section class="Home blue">
             <h1>boost up your local business </h1>
             <p>Midst. Greater Was, very unto. Grass open female firmament fifth isn't. So. Deep bring unto</p>
-            <form action="" class="form1">
+            <form action="" class="form">
                 <input type="text" placeholder="✎Full Name">
-                <input type="text" placeholder="&#9993E-mail Adress">
-                <input type="text" placeholder="&#9742Phone Number">
+                <input type="text" placeholder="&#9993;E-mail Adress">
+                <input type="text" placeholder="&#128222;Phone Number">
                 <input type="submit" value="Request A Quote" class="orange">
             </form>
             <div class="carousel">
-                <div class="buttonLeft" onclick="carouselMinus()">&lt</div>
+                <div class="buttonLeft" onclick="carouselMinus()">&lt;</div>
                 <img src="img1.jpg" alt="image" class="image" id="CarIm">
-                <div class="buttonRight" onclick="carouselPlus()">&gt</div>
+                <div class="buttonRight" onclick="carouselPlus()">&gt;</div>
             </div>
         </section>
         <div class="dots">
@@ -50,7 +50,7 @@
         <section id="Service">
             <h2>our services</h2>
             <p>Every winged fill void form day he signs living, fish seasons, one good male that years, together.</p>
-            <div class="grid">
+            <div class="service-grid">
                 <img src="Icons/icon1.png" alt="Icon">
                 <div class="service1">
                     <h3>font-awesome icons</h3>
@@ -98,7 +98,7 @@
         <section id="AboutUs" class="orange">
             <img src="about-image.jpg" alt="Image" class="image">
             <div class="info">
-                <h3>about us</h3>
+                <h2>about us</h2>
                 <p>Signs whose great years which. Second beginning created fish moving greater a fill open fruitful man
                     winged, female male image you made winged give creature, open created sixth them sixth. Created
                     won't own his him is. Man us evening multiply meat multiply first they're form own. Man beast beast
@@ -107,110 +107,148 @@
             </div>
         </section>
         <section id="Pricing" class="pricing">
-            <h3>Choose your price</h3>
+            <h2>Choose your price</h2>
             <p>Lights made rule she'd. Us tree. Spirit replenish you without.</p>
             <div class="plans">
                 <div class="basic plan">
                     <h3>basic plan</h3>
-                    <p>
-                    <p class="price"><sup>$</sup>22</p><br>per month<br><br>
+                    <span class="price"><sup>$</sup>22</span><br>per month<br><br>
                     <hr>1 account
                     <hr>8 hour support
-                    <hr>custom cloud services<br><br><br><span class="orange start-button">get started</span></p>
+                    <hr>custom cloud services<br><br><br><span class="orange start-button">get started</span>
                 </div>
                 <div class="premium blue plan">
                     <h3>premium plan</h3>
-                    <p>
-                    <p class="price"><sup>$</sup>42</p><br>per month<br><br>
+                    <span class="price"><sup>$</sup>42</span><br>per month<br><br>
                     <hr>2 accounts
                     <hr>100 mb storage
-                    <hr>custom cloud services<br><br><br><span class="orange start-button">get started</span></p>
+                    <hr>custom cloud services<br><br><br><span class="orange start-button">get started</span>
                 </div>
                 <div class="golden plan">
                     <h3>gold plan</h3>
-                    <p>
-                    <p class="price"><sup>$</sup>62</p><br>per month<br><br>
+                    <span class="price"><sup>$</sup>62</span><br>per month<br><br>
                     <hr>8 accounts
                     <hr>24 hour support
-                    <hr>custom cloud services<br><br><br><span class="orange start-button">get started</span></p>
+                    <hr>custom cloud services<br><br><br><span class="orange start-button">get started</span>
                 </div>
             </div>
         </section>
-        <section id="HowItWorks">
-            <h3>How it works</h3>
+        <section id="HowItWorks" class="steps">
+            <h2>How it works</h2>
             <p>Gathered they're land morning. Said multiply moving. Set great evening.</p>
             <div class="stepImages">
-                <img src="Steps/step1.png" alt="Image" class="imageStep1">
+                <div class="step1">
+                    <img src="Steps/step1.png" alt="Image" class="step">
+                    <div class="step">
+                        <h4>Step 1</h4>
+                        <p>Wherein night wherein be. Days he, two evening. Firmament greater.</p>
+                    </div>
+                </div>
                 <img src="Arrows/arrow1.png" alt="Image" class="top">
-                <img src="Steps/step2.png" alt="Image" class="imageStep2">
-                <img src="Arrows/arrow2.png" alt="Image" class="bottom">
-                <img src="Steps/step3.png" alt="Image" class="imageStep3">
+                <div class="step2">
+                    <img src="Steps/step2.png" alt="Image" class="step">
+                    <div class="step">
+                        <h4>Step 2</h4>
+                        <p>Light life grass above Blessed to hath greater unto midst.</p>
+                    </div>
+                </div>
+                <img src="Arrows/arrow2.png" alt="Image" class="center">
+                <div class="step3">
+                    <img src="Steps/step3.png" alt="Image" class="step">
+                    <div class="step">
+                        <h4>Step 3</h4>
+                        <p>Have hath beginning, lights. Gathering them great set seas for.</p>
+                    </div>
+                </div>
                 <img src="Arrows/arrow3.png" alt="Image" class="top">
-                <img src="Steps/step4.png" alt="Image" class="imageStep4">
-            </div>
-            <div class="step1">
-                <h4>Step 1</h4>
-                <p>Wherein night wherein be. Days he, two evening. Firmament greater.</p>
-            </div>
-            <div class="step2">
-                <h4>Step 2</h4>
-                <p>Light life grass above Blessed to hath greater unto midst.</p>
-            </div>
-            <div class="step3">
-                <h4>Step 3</h4>
-                <p>Have hath beginning, lights. Gathering them great set seas for.</p>
-            </div>
-            <div class="step4">
-                <h4>Step 4</h4>
-                <p>Fill day third to years god good second give, lights.</p>
+                <div class="step4">
+                    <img src="Steps/step4.png" alt="Image" class="step">
+                    <div class="step">
+                        <h4>Step 4</h4>
+                        <p>Fill day third to years god good second give, lights.</p>
+                    </div>
+                </div>
             </div>
             <div>
                 <span class="orange start-button">get start now</span>
             </div>
         </section>
         <section id="Clients" class="orange">
-            <h3>happy clients</h3>
+            <h2>happy clients</h2>
             <p>Place god land fly likeness called which evening let years.</p>
-            <dl class="client1">
-                <dt><img src="Faces\Face1.png" alt="Client"></dt>
-                <dl>
-                    <quote></quote>
-                </dl>
-                <dt class="client2"></dt>
-                <img src="Faces\Face2.png" alt="Client">
-                <dl>
-                    <quote></quote>
-                </dl>
-                <dt class="client3"></dt>
-                <img src="Faces\Face3.png" alt="Client">
-                <dl>
-                    <quote></quote>
-                </dl>
-                <dt class="client4"></dt>
-                <img src="Faces\Face4.png" alt="Client">
-                <dl>
-                    <quote></quote>
-                </dl>
+            <div class="clients">
+                <div class="client1">
+                    <img src="Faces/Face1.png" alt="Client" class="face">
+                    <span>
+                        <q>"Given waters heaven air midst good morning second whose subdue our over. Light, it, own
+                            in saw days they're. Female fruit grass have upon isn't gathered female given his
+                            cattle."</q>
+                        <br><br>
+                        <i>Darwin Michle</i>, PROJECT MANAGER
+                    </span>
+                </div>
+                <div class="client2">
+                    <img src="Faces/Face2.png" alt="Client" class="face">
+                    <span>
+                        <q>Fifth sea isn't open Us his shall great under green made tree own fish so. To creepeth
+                            under
+                            tree seas fifth appear very created wherein was. Herb form cattle, have.</q>
+                        <br><br>
+                        <i>Madam Elisabath</i>, CREATIVE DIRECTOR
+                    </span>
+                </div>
+                <div class="client3">
+                    <img src="Faces/Face3.png" alt="Client" class="face">
+                    <span>
+                        <q>Life image forth two over unto waters every midst fruitful. Sixth good. Man herb dominion
+                            his
+                            in his he firmament were herb place beginning creepeth had over darkness fish were.</q>
+                        <br><br>
+                        <i>Clips arter</i>, LIPSUM DIRECTER
+                    </span>
+                </div>
+                <div class="client4">
+                    <img src="Faces/Face4.png" alt="Client" class="face">
+                    <span>
+                        <q>Firmament. One fowl called open. Doesn't it two wherein night brought. Of i day all.
+                            Dominion, female winged darkness, above be, their open every yielding image you're Midst
+                            seed
+                            there.</q>
+                        <br><br>
+                        <i>zam cristafr</i>, MANAGER
+                    </span>
+                </div>
+            </div>
         </section>
         <section id="Newsletter">
-            <h3>newsletter</h3>
+            <h2>newsletter</h2>
             <p>Created made make created night May his wherein creature which.</p>
-            <form action="">
+            <form action="" class="form1">
                 <input type="text" placeholder="✎Full Name">
-                <input type="text" placeholder="&#9993 E-mail Adress">
-                <input type="submit" value="subscribe now">
+                <input type="text" placeholder="&#9993;E-mail Adress" size="30">
+                <input type="submit" value="subscribe now" class="orange submit">
             </form>
-            <div><img src="dotted map.png" alt="Map" class="map image"></div>
-            <nav class="menu">
-                <div class="home">home</div>
-                <div class="toService nav" onclick="jumpTo(Service)">service</div>
-                <div class="toAboutUs nav" onclick="jumpTo(AboutUs)">about us</div>
-                <div class="toPricing nav" onclick="jumpTo(Pricing)">pricing table</div>
-                <div class="toHowItWorks nav" onclick="jumpTo(HowItWorks)">how it works</div>
-                <div class="toClients nav" onclick="jumpTo(Clients)">happy clients</div>
-                <div class="toNewsletter nav" onclick="jumpTo(Newsletter)">contuct us</div>
+            <img src="dotted-map-address.png" alt="Map" class="map image">
+            <hr>
+            <nav class="menu bottom-menu">
+                <span class="home">home</span>
+                <span class="toService nav" onclick="jumpTo(Service)">service</span>
+                <span class="toAboutUs nav" onclick="jumpTo(AboutUs)">about us</span>
+                <span class="toPricing nav" onclick="jumpTo(Pricing)">pricing table</span>
+                <span class="toHowItWorks nav" onclick="jumpTo(HowItWorks)">how it works</span>
+                <span class="toClients nav" onclick="jumpTo(Clients)">happy clients</span>
+                <span class="toNewsletter nav" onclick="jumpTo(Newsletter)">contuct us</span>
             </nav>
-            <div class="contact"></div>
+            <div class="contact">
+                <a class="phone-number" href=tel:+9879976999>&#128222;+987 9976 999 </a>
+                <br>
+                <span class="links">
+                    <a href="https://twitter.com/" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+                    <a href="https://myaccount.google.com/profile" target="_blank"><img src="g+.png" alt="Google+"></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><img src="in.png" alt="LinkedIn"></a>
+                </span>
+            </div>
         </section>
     </div>
     <footer class="blue">
