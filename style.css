@@ -1,4 +1,4 @@
-:root {
+html {
     font-size: 14px;
     font-family: Arial, sans-serif;
 } 
@@ -6,7 +6,6 @@
 *{
     margin: 0;
     padding: 0;
-    max-width: 100vw;
 }
 
 .menu, h1, h2, h3, .client-name, .submit {
@@ -30,6 +29,12 @@ section {
     align-items: center;
 }
 
+#CarIm {
+    width: 445px;
+    height: 246px;
+    object-fit: cover;
+}
+
 .buttonLeft, 
 .buttonRight {
     background-color: transparent;
@@ -41,16 +46,11 @@ section {
     transition: color 1s, font-size 1s;
 }
 
-#CarIm {
-    width: 445px;
-    height: 246px;
-}
-
 li {
     margin: 0vh 2vw 0vh 2vw;
     border: 2px solid gray;
     border-radius: 100%;
-    padding: 0 8px 0 8px;
+    padding: 0 0.5em 0 0.5em;
     color: transparent;
     display: inline;
     position: relative;
@@ -76,7 +76,7 @@ nav>div {
 nav {
     padding: 0 15vw 0 15vw;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: flex-end;
     align-items: center;
 }
@@ -212,10 +212,9 @@ footer {
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
-    padding: 5vh 0 5vh 0;
 }
 
-.step {
+.step, .stepImages {
     padding: 5vh 0 5vh 0;
 }
 
@@ -231,16 +230,15 @@ footer {
     padding-bottom: 15vh;
 }
 
-.bottom-menu {
-    margin: 40px;
+.step1 .step2 .step3 .step4 {
+    display: flex;
+    flex-flow: column;
     justify-content: space-between;
-    padding: 0;
 }
 
-.clients>img {
-    float: left;
-    width: 100px;
-    height: 100px;
+.bottom-menu {
+    justify-content: space-between;
+    padding: 0;
 }
 
 .clients {
@@ -256,15 +254,13 @@ footer {
     text-align:start;
 }
 
-.client1, .client2, .client3, .client4 {
+.client {
     background-color: white;
     padding: 20px;
     display: flex;
     flex-direction: row;
-}
-
-.face {
-    padding: 10px;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 i {
@@ -273,7 +269,8 @@ i {
 }
 
 .map {
-    margin: 40px;
+    width: 70vw;
+    object-fit: cover;
 }
 
 .links {
@@ -290,4 +287,62 @@ i {
 
 .links>a {
     margin: 10px;
+}
+
+.face {
+    padding: 10px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 8px;
+    }
+    section {
+        padding: 3vh 5vw 3vh 5vw;
+        margin: 0;
+    }
+
+    #CarIm {
+        max-width: 80vw;
+        height: 246px;
+    }
+
+    .service-grid {
+        display: grid;
+        grid-template-columns:none;
+    }
+
+    .top, .center {
+        display: none;
+    }
+    
+    .stepImages {
+        flex-direction: column;
+    }
+
+    .step {
+        padding: 2vh 0 2vh 0;
+    }
+
+    .face, .step-Images {
+        object-fit: contain;
+    }
+
+    .clients {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .client {
+        min-height: unset;
+    }
+
+    form>input {
+        max-width: 50vw;
+    }
+
+    menu {
+        margin: 0;
+    }
 }

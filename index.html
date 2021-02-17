@@ -15,13 +15,13 @@
             <div class="icon">
                 <img src="logo.png" alt="Icon">
             </div>
-            <span class="home nav orange">home</span>
-            <span class="toService nav" onclick="jumpTo(Service)">service</span>
-            <span class="toAboutUs nav" onclick="jumpTo(AboutUs)">about us</span>
-            <span class="toPricing nav" onclick="jumpTo(Pricing)">pricing table</span>
-            <span class="toHowItWorks nav" onclick="jumpTo(HowItWorks)">how it works</span>
-            <span class="toClients nav" onclick="jumpTo(Clients)">happy clients</span>
-            <span class="toNewsletter nav" onclick="jumpTo(Newsletter)">contuct us</span>
+            <span id="Home" class="nav orange">home</span>
+            <span class="nav" onclick="jumpTo(Service)">service</span>
+            <span class="nav" onclick="jumpTo(AboutUs)">about us</span>
+            <span class="nav" onclick="jumpTo(Pricing)">pricing table</span>
+            <span class="nav" onclick="jumpTo(HowItWorks)">how it works</span>
+            <span class="nav" onclick="jumpTo(Clients)">happy clients</span>
+            <span class="nav" onclick="jumpTo(Newsletter)">contuct us</span>
         </nav>
     </header>
     <div class="content">
@@ -36,7 +36,7 @@
             </form>
             <div class="carousel">
                 <div class="buttonLeft" onclick="carouselMinus()">&lt;</div>
-                <img src="img1.jpg" alt="image" class="image" id="CarIm">
+                <img src="img1.jpg" alt="image" id="CarIm">
                 <div class="buttonRight" onclick="carouselPlus()">&gt;</div>
             </div>
         </section>
@@ -138,31 +138,31 @@
             <p>Gathered they're land morning. Said multiply moving. Set great evening.</p>
             <div class="stepImages">
                 <div class="step1">
-                    <img src="Steps/step1.png" alt="Image" class="step">
+                    <img src="Steps/step1.png" alt="Image" class="step step-Images">
                     <div class="step">
                         <h4>Step 1</h4>
                         <p>Wherein night wherein be. Days he, two evening. Firmament greater.</p>
                     </div>
                 </div>
-                <img src="Arrows/arrow1.png" alt="Image" class="top">
+                <img src="Arrows/arrow1.png" alt="Image" class="top step-Images">
                 <div class="step2">
-                    <img src="Steps/step2.png" alt="Image" class="step">
+                    <img src="Steps/step2.png" alt="Image" class="step step-Images">
                     <div class="step">
                         <h4>Step 2</h4>
                         <p>Light life grass above Blessed to hath greater unto midst.</p>
                     </div>
                 </div>
-                <img src="Arrows/arrow2.png" alt="Image" class="center">
+                <img src="Arrows/arrow2.png" alt="Image" class="center step-Images">
                 <div class="step3">
-                    <img src="Steps/step3.png" alt="Image" class="step">
+                    <img src="Steps/step3.png" alt="Image" class="step step-Images">
                     <div class="step">
                         <h4>Step 3</h4>
                         <p>Have hath beginning, lights. Gathering them great set seas for.</p>
                     </div>
                 </div>
-                <img src="Arrows/arrow3.png" alt="Image" class="top">
+                <img src="Arrows/arrow3.png" alt="Image" class="top step-Images">
                 <div class="step4">
-                    <img src="Steps/step4.png" alt="Image" class="step">
+                    <img src="Steps/step4.png" alt="Image" class="step step-Images">
                     <div class="step">
                         <h4>Step 4</h4>
                         <p>Fill day third to years god good second give, lights.</p>
@@ -177,7 +177,7 @@
             <h2>happy clients</h2>
             <p>Place god land fly likeness called which evening let years.</p>
             <div class="clients">
-                <div class="client1">
+                <div class="client">
                     <img src="Faces/Face1.png" alt="Client" class="face">
                     <span>
                         <q>"Given waters heaven air midst good morning second whose subdue our over. Light, it, own
@@ -187,7 +187,7 @@
                         <i>Darwin Michle</i>, PROJECT MANAGER
                     </span>
                 </div>
-                <div class="client2">
+                <div class="client">
                     <img src="Faces/Face2.png" alt="Client" class="face">
                     <span>
                         <q>Fifth sea isn't open Us his shall great under green made tree own fish so. To creepeth
@@ -197,7 +197,7 @@
                         <i>Madam Elisabath</i>, CREATIVE DIRECTOR
                     </span>
                 </div>
-                <div class="client3">
+                <div class="client">
                     <img src="Faces/Face3.png" alt="Client" class="face">
                     <span>
                         <q>Life image forth two over unto waters every midst fruitful. Sixth good. Man herb dominion
@@ -207,7 +207,7 @@
                         <i>Clips arter</i>, LIPSUM DIRECTER
                     </span>
                 </div>
-                <div class="client4">
+                <div class="client">
                     <img src="Faces/Face4.png" alt="Client" class="face">
                     <span>
                         <q>Firmament. One fowl called open. Doesn't it two wherein night brought. Of i day all.
@@ -228,16 +228,16 @@
                 <input type="text" placeholder="&#9993;E-mail Adress" size="30">
                 <input type="submit" value="subscribe now" class="orange submit">
             </form>
-            <img src="dotted-map-address.png" alt="Map" class="map image">
+            <img src="dotted-map-address.png" alt="Map" class="map">
             <hr>
             <nav class="menu bottom-menu">
-                <span class="home">home</span>
-                <span class="toService nav" onclick="jumpTo(Service)">service</span>
-                <span class="toAboutUs nav" onclick="jumpTo(AboutUs)">about us</span>
-                <span class="toPricing nav" onclick="jumpTo(Pricing)">pricing table</span>
-                <span class="toHowItWorks nav" onclick="jumpTo(HowItWorks)">how it works</span>
-                <span class="toClients nav" onclick="jumpTo(Clients)">happy clients</span>
-                <span class="toNewsletter nav" onclick="jumpTo(Newsletter)">contuct us</span>
+                <span class="home" onclick="jumpTo(Home)">home</span>
+                <span class="nav" onclick="jumpTo(Service)">service</span>
+                <span class="nav" onclick="jumpTo(AboutUs)">about us</span>
+                <span class="nav" onclick="jumpTo(Pricing)">pricing table</span>
+                <span class="nav" onclick="jumpTo(HowItWorks)">how it works</span>
+                <span class="nav" onclick="jumpTo(Clients)">happy clients</span>
+                <span class="nav" onclick="jumpTo(Newsletter)">contuct us</span>
             </nav>
             <div class="contact">
                 <a class="phone-number" href=tel:+9879976999>&#128222;+987 9976 999 </a>
