@@ -35,6 +35,12 @@ function carouselMinus() {
 function jumpTo(anchor) {
     anchor.scrollIntoView();
 }
+function jumpToM() {
+    var selected = document.getElementById("mNav");
+    anchor = document.getElementById(selected.value);
+    anchor.scrollIntoView();
+    selected.value = "home";
+}
 function lol() {
     document.getElementById("readMore").innerHTML = "Nice try:)";
 }

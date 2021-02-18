@@ -8,8 +8,12 @@ html {
     padding: 0;
 }
 
-.menu, h1, h2, h3, .client-name, .submit {
+.menu, h1, h2, h3, .client-name, .submit, select, option {
     text-transform: uppercase;
+}
+
+select {
+    display: none;
 }
     
 section {
@@ -295,6 +299,26 @@ i {
     html {
         font-size: 10px;
     }
+
+    nav {
+        padding: 0;
+    }
+
+    nav>span {
+        display: none;
+    }
+
+    option, label {
+        text-align: center;
+    }
+
+    select {
+        display: block;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+
     section {
         padding: 3vh 5vw 3vh 5vw;
         margin: 0;
