@@ -300,10 +300,6 @@ i {
         font-size: 10px;
     }
 
-    nav {
-        padding: 0;
-    }
-
     nav>span {
         display: none;
     }
