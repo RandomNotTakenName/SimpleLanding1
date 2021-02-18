@@ -330,6 +330,10 @@ i {
         grid-template-columns:none;
     }
 
+    .service>h3 {
+        text-align: center;
+    }
+
     .top, .center {
         display: none;
     }
