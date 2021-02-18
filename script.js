@@ -41,6 +41,9 @@ function jumpToM() {
     anchor.scrollIntoView();
     selected.value = "home";
 }
-function lol() {
-    document.getElementById("readMore").innerHTML = "Nice try:)";
+function readMore() {
+    var button = document.getElementById("readMore");
+    button.classList.remove("readButton");
+    button.classList.add("invisible");
+    document.getElementById("addMore").innerHTML += " Without brought. A for sixth female sixth herb called fruitful. Creature moveth, dry, it meat yielding there divided moveth air years air. Fruitful form him you're yielding beginning forth god.";
 }
