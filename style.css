@@ -373,4 +373,8 @@ i {
     menu {
         margin: 0;
     }
+
+    .bottom-menu>span {
+        display: inline;
+    }
 }
