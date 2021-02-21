@@ -47,3 +47,6 @@ function readMore() {
     button.classList.add("invisible");
     document.getElementById("addMore").innerHTML += "Second beginning created fish moving greater a fill open fruitful man winged, female male image you made winged give creature, open created sixth them sixth. Created won't own his him is. Man us evening multiply meat multiply first they're form own.Man beast beast created.Without brought.A for sixth female sixth herb called fruitful.Creature moveth, dry, it meat yielding there divided moveth air years air.Fruitful form him you're yielding beginning forth god.";
 }
+function subscription() {
+    alert('You are one of our pleased clients now. Thanks for choosing us');
+}

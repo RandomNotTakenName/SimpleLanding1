@@ -313,6 +313,8 @@ i {
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
+        height: 32px;
+        background: url(select-logo.png) no-repeat right;
     }
 
     section {
