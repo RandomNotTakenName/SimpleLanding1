@@ -12,6 +12,10 @@ html {
     text-transform: uppercase;
 }
 
+.submit {
+    border: 2px solid black;
+}
+
 select {
     display: none;
 }
@@ -146,8 +150,8 @@ nav {
 
 .orange {
     background-color: orange;
-    color: white;
-    border: unset;
+    color: white;/* 
+    border: unset; */
 }
 
 .readButton {

@@ -7,9 +7,7 @@ function clickChange(position) {
 
 function classChange(position) {
     document.getElementById("li" + number).classList.remove("active");
-    console.log(number, document.getElementById("li" + number).classList);
     document.getElementById("li" + position).classList.add("active");
-    console.log(position, document.getElementById("li" + position).classList);
 }
 
 function carouselPlus() {
