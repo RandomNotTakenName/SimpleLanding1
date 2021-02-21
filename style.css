@@ -325,6 +325,10 @@ i {
         height: 246px;
     }
 
+    #AboutUs {
+        padding: 0;
+    }
+
     .info {
         padding: 20px;
     }
