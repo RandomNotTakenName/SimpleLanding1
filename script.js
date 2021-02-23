@@ -47,11 +47,15 @@ function readMore() {
 }
 function subscription() {
     event.preventDefault()
-    var popup = document.getElementById("sub");
+    let popup = document.getElementById("sub");
     popup.classList.toggle("show");
+    let clear = document.getElementById("top-form");
+    clear.reset();
 }
 function emailSubscription() {
     event.preventDefault()
-    var popup = document.getElementById("emailSub");
+    let popup = document.getElementById("emailSub");
     popup.classList.toggle("show");
+    let clear = document.getElementById("bottom-form");
+    clear.reset();
 }
