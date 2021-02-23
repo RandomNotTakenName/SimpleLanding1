@@ -34,15 +34,20 @@
             <span class="nav" onclick="jumpTo(HowItWorks)">how it works</span>
             <span class="nav" onclick="jumpTo(Clients)">happy clients</span>
             <span class="nav" onclick="jumpTo(Newsletter)">contuct us</span>
-            <select onchange="jumpToM()" id="mNav">
-                <option disabled selected>home</option>
-                <option value="Service">service</option>
-                <option value="AboutUs">about us</option>
-                <option value="Pricing">pricing table</option>
-                <option value="HowItWorks">how it works</option>
-                <option value="Clients">happy clients</option>
-                <option value="Newsletter">contuct us</option>
-            </select>
+            <div class="aniMenu">
+                <div id="navigation" class="navMenu">
+                    <span id="Home" class="navElement">home</span>
+                    <span class="navElement" onclick="jumpTo(Service)">service</span>
+                    <span class="navElement" onclick="jumpTo(AboutUs)">about us</span>
+                    <span class="navElement" onclick="jumpTo(Pricing)">pricing table</span>
+                    <span class="navElement" onclick="jumpTo(HowItWorks)">how it works</span>
+                    <span class="navElement" onclick="jumpTo(Clients)">happy clients</span>
+                    <span class="navElement" onclick="jumpTo(Newsletter)">contuct us</span>
+                </div>
+                <div class="menuButton">
+                    <img id="compass" onclick="navAnimation()" src="select-logo.png" alt="menu">
+                </div>
+            </div>
         </nav>
     </header>
     <div class="content">
@@ -133,21 +138,24 @@
                     <span class="price"><sup>$</sup>22</span><br>per month<br><br>
                     <hr>1 account
                     <hr>8 hour support
-                    <hr>custom cloud services<br><br><br><span onclick="subscription()" class="orange submit start-button">get started</span>
+                    <hr>custom cloud services<br><br><br><span onclick="subscription()"
+                        class="orange submit start-button">get started</span>
                 </div>
                 <div class="premium blue plan">
                     <h3>premium plan</h3>
                     <span class="price"><sup>$</sup>42</span><br>per month<br><br>
                     <hr>2 accounts
                     <hr>100 mb storage
-                    <hr>custom cloud services<br><br><br><span onclick="subscription()" class="orange start-button submit">get started</span>
+                    <hr>custom cloud services<br><br><br><span onclick="subscription()"
+                        class="orange start-button submit">get started</span>
                 </div>
                 <div class="golden plan">
                     <h3>gold plan</h3>
                     <span class="price"><sup>$</sup>62</span><br>per month<br><br>
                     <hr>8 accounts
                     <hr>24 hour support
-                    <hr>custom cloud services<br><br><br><span onclick="subscription()" class="orange submit start-button">get started</span>
+                    <hr>custom cloud services<br><br><br><span onclick="subscription()"
+                        class="orange submit start-button">get started</span>
                 </div>
             </div>
         </section>

@@ -59,3 +59,7 @@ function emailSubscription() {
     let clear = document.getElementById("bottom-form");
     clear.reset();
 }
+function navAnimation() {
+    let animatron = document.getElementById("navigation");
+    animatron.classList.toggle("navActive");
+}

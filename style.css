@@ -8,16 +8,12 @@ html {
     padding: 0;
 }
 
-.menu, h1, h2, h3, .client-name, .submit, select, option {
+.menu, h1, h2, h3, .client-name, .submit, option {
     text-transform: uppercase;
 }
 
 .submit {
     border: 2px solid black;
-}
-
-select {
-    display: none;
 }
     
 section {
@@ -27,6 +23,10 @@ section {
 
 .menu, li, .buttonLeft, .buttonRight, .start-button, .readMore {
     cursor: pointer;
+}
+
+.aniMenu {
+    display: none;
 }
 
 .carousel {
@@ -349,13 +349,30 @@ i {
         display: none;
     }
 
-    select {
-        display: block;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-        height: 32px;
-        background: url(select-logo.png) no-repeat right;
+    .aniMenu {
+        position: absolute;
+        z-index: 2;
+        top: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navElement {
+        padding: 2px;
+    }
+
+    .navMenu {
+        display: flex;
+        flex-direction: column;
+        transform-origin: right top;
+        transform: scale(0);
+        background: #ffffffe0;
+    }
+
+    .navActive {
+        transition: 1s;
+        transform-origin: right top;
+        transform: scale(1);
     }
 
     section {
