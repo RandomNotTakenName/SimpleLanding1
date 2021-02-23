@@ -358,7 +358,8 @@ i {
     }
 
     .navElement {
-        padding: 2px;
+        font-size: 16px;
+        padding: 5px;
     }
 
     .navMenu {
