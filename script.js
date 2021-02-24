@@ -31,7 +31,7 @@ function carouselMinus() {
     number = position;
 }
 function jumpTo(anchor) {
-    anchor.scrollIntoView();
+    anchor.scrollIntoView({behavior: 'smooth'});
 }
 function jumpToM() {
     var selected = document.getElementById("mNav");
