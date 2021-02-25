@@ -397,6 +397,10 @@ i {
         padding: 20px;
     }
 
+    .premium {
+        padding: 10vh 5vw 10vh 5vw;
+    }
+
     .service-grid {
         display: grid;
         grid-template-columns:none;
@@ -426,6 +430,7 @@ i {
         display: flex;
         flex-direction: column;
         padding-bottom: 20px;
+        margin-top: 0;
     }
 
     .client {

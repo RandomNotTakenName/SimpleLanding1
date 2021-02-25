@@ -31,13 +31,13 @@ function carouselMinus() {
     number = position;
 }
 function jumpTo(anchor) {
-    anchor.scrollIntoView();
+    anchor.scrollIntoView({behavior: 'smooth'});
+    console.log(anchor);
 }
 function jumpToM() {
     var selected = document.getElementById("mNav");
     anchor = document.getElementById(selected.value);
-    anchor.scrollIntoView();
-    selected.value = "home";
+    anchor.scrollIntoView({behavior: 'smooth'});
 }
 function readMore() {
     var button = document.getElementById("readMore");
