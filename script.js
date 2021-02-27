@@ -34,7 +34,7 @@ function jumpTo(anchor) {
     anchor.scrollIntoView({behavior: 'smooth'});
 }
 function jumpToM() {
-    var selected = document.getElementById("mNav");
+    let selected = document.getElementById("mNav");
     anchor = document.getElementById(selected.value);
     anchor.scrollIntoView({behavior: 'smooth'});
 }
